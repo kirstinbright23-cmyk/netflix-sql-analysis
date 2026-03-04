@@ -20,6 +20,13 @@ The dataset contains information about Netflix titles including:
 - description
 Total records: ~8,800
 
+## Business Questions
+
+1. How many movies vs TV shows are on Netflix?
+2. Which rating appears most frequently?
+3. What countries produce the most content?
+5. What year had the most content added?
+
 ## Tools Used
 PostgreSQL
 SQL
