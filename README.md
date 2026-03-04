@@ -7,6 +7,18 @@ This project explores Netflix content data using SQL. The analysis investigates 
 
 ## Dataset
 Netflix Movies and TV Shows dataset from Kaggle.
+The dataset contains information about Netflix titles including:
+- title
+- type (movie or TV show)
+- director
+- cast
+- country
+- release_year
+- rating
+- duration
+- genre
+- description
+Total records: ~8,800
 
 ## Tools Used
 PostgreSQL
