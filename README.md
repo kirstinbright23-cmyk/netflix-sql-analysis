@@ -3,7 +3,7 @@ SQL analysis of Netflix titles dataset exploring content trends, ratings, and pr
 # Netflix SQL Data Analysis
 
 ## Project Overview
-This project analyzes Netflix movies and TV shows using SQL to identify trends in content production, ratings, and geographic distribution.
+This project explores Netflix content data using SQL. The analysis investigates content distribution, release trends, ratings, and geographic production patterns.
 
 ## Dataset
 Netflix Movies and TV Shows dataset from Kaggle.
