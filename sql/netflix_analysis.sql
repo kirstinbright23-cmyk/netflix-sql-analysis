@@ -1,4 +1,4 @@
---Netflix Data Cleaning
+--DATA CLEANING
 
 -- Fix data quality issue where movie duration was incorrectly stored in rating column
 
