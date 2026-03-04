@@ -3,22 +3,28 @@ SQL analysis of Netflix titles dataset exploring content trends, ratings, and pr
 # Netflix SQL Data Analysis
 
 ## Project Overview
-This project explores Netflix content data using SQL. The analysis investigates content distribution, release trends, ratings, and geographic production patterns.
+This project analyzes Netflix's catalog of movies and TV shows using SQL.
+The goal is to explore trends in content type, ratings, release years,
+and production countries.
+
+Dataset: Netflix Movies and TV Shows dataset (Kaggle)
+Tools: SQL, PostgreSQL, GitHub
 
 ## Dataset
-Netflix Movies and TV Shows dataset from Kaggle.
-The dataset contains information about Netflix titles including:
+The dataset contains 8,800+ Netflix titles including:
+
+- show_id
+- type (Movie or TV Show)
 - title
-- type (movie or TV show)
 - director
 - cast
 - country
+- date_added
 - release_year
 - rating
 - duration
-- genre
+- listed_in (genre)
 - description
-Total records: ~8,800
 
 ## Business Questions
 
