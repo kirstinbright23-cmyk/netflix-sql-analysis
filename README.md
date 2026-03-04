@@ -34,10 +34,11 @@ The dataset contains 8,800+ Netflix titles including:
 5. What year had the most content added?
 
 ## Tools Used
-PostgreSQL
-SQL
-GitHub
-
+- SQL
+- PostgreSQL
+- GitHub
+- Kaggle Dataset
+  
 ## Key Questions
 - How many movies vs TV shows exist on Netflix?
 - Which years had the most content released?
