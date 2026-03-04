@@ -1,7 +1,15 @@
---DATA CLEANING
+--**DATA CLEANING**
+
+-- Replace missing ratings
+UPDATE netflix
+SET rating = 'Unknown'
+WHERE rating IS NULL;
+
+-- Remove whitespace
+UPDATE netflix
+SET rating = TRIM(rating);
 
 -- Fix data quality issue where movie duration was incorrectly stored in rating column
-
 SELECT *
 FROM netflix
 WHERE rating LIKE '%min%';
@@ -31,7 +39,7 @@ GROUP BY country
 ORDER BY total_titles DESC;
 
 
--- Netflix SQL Analysis
+--**Netflix SQL Analysis**
 
 -- Movies vs TV Shows
 SELECT type, COUNT(*) AS total_titles
