@@ -1,2 +1,32 @@
 # netflix-sql-analysis
 SQL analysis of Netflix titles dataset exploring content trends, ratings, and production patterns.
+# Netflix SQL Data Analysis
+
+## Project Overview
+This project analyzes Netflix movies and TV shows using SQL to identify trends in content production, ratings, and geographic distribution.
+
+## Dataset
+Netflix Movies and TV Shows dataset from Kaggle.
+
+## Tools Used
+PostgreSQL
+SQL
+GitHub
+
+## Key Questions
+- How many movies vs TV shows exist on Netflix?
+- Which years had the most content released?
+- Which countries produce the most Netflix content?
+
+## Example Query
+
+SELECT type, COUNT(*) AS total_titles
+FROM netflix
+GROUP BY type;
+
+## Key Insights
+- Movies significantly outnumber TV shows 
+- TV MA is the most common rating
+- The United States produces the most titles
+- 2018 had the highest number of titles produced
+- Content production increased rapidly after 2016 
